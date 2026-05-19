@@ -8,9 +8,9 @@ spec:
  selector:
   app: nginx
 
-type: LoadBalancer
+ type: LoadBalancer
 
-ports:
+ ports:
  - protocol: TCP
    port: 80
    targetPort: 80
